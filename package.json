@@ -1,0 +1,30 @@
+{
+  "name": "site-manager",
+  "description": "Manage and track automatic updates for your WordPress installation.",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:1and1/wp-site-manager.git"
+  },
+  "keywords": [
+    "autoupdate",
+    "changelog",
+    "admin",
+    "upgrade",
+    "install",
+    "automatic"
+  ],
+  "author": "1&1",
+  "license": " GPL-2.0",
+  "dependencies": {
+    "npm": "^6.0.0"
+  },
+  "devDependencies": {
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt": "^1.0.2",
+    "grunt-wp-i18n": "^1.0.2",
+    "grunt-wp-readme-to-markdown": "^2.0.1",
+  }
+}

@@ -1,0 +1,41 @@
+/* Settings */
+.settings-description p {
+	font-size: 14px;
+}
+
+/* Changlog table */
+.bulkactions {
+	display: none;
+}
+.changelog-show-first .update {
+	display: none;
+}
+.changelog-show-first .update:first-child {
+	display: block;
+}
+.widefat .column-update_log_changelog {
+	width: 30%;
+}
+.widefat .column-update_log_version,
+.widefat .column-update_log_version_previous,
+.widefat .column-update_log_category {
+	width: 8%;
+}
+.widefat .column-update_log_version_previous,
+.widefat .column-update_log_method {
+	width: 11%;
+}
+@media screen and ( max-width: 782px ) {
+	.widefat .column-update_log_changelog {
+		width: 45%;
+	}
+	.widefat .column-update_log_version {
+		width: 20%;
+	}
+	/* Columns to hide */
+	.fixed .column-update_log_version_previous,
+	.fixed .column-update_log_category,
+	.fixed .column-update_log_method {
+		display: none;
+	}
+}

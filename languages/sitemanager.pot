@@ -1,0 +1,174 @@
+# Copyright (C) 2018 1&1
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto Updater 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sitemanager\n"
+"POT-Creation-Date: 2018-05-11 11:08:46+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: inc/admin.php:18 inc/admin.php:19
+msgid "Settings"
+msgstr ""
+
+#: inc/admin.php:51
+msgid "Run WordPress updates"
+msgstr ""
+
+#: inc/admin.php:55
+msgid "Run translation updates"
+msgstr ""
+
+#: inc/admin.php:59
+msgid "Run theme updates"
+msgstr ""
+
+#: inc/admin.php:59
+msgid ""
+"Note: automatic theme updates will <strong>overwrite the theme "
+"customizations</strong> you did outside of the WordPress Administration."
+msgstr ""
+
+#: inc/admin.php:63
+msgid "Run plugin updates"
+msgstr ""
+
+#: inc/admin.php:86
+msgid ""
+"Your installation appears to be under version control (%s). This prevents "
+"the plugin from managing your updates."
+msgstr ""
+
+#: inc/admin.php:95
+msgid ""
+"Your installation is currently blocking automatic updates. Install %s to "
+"find the cause."
+msgstr ""
+
+#: inc/admin.php:103
+msgid ""
+"Your installation is currently blocking automatic updates. Activate %s and "
+"go to 'Update Tester' under 'Dashboard' to find the cause."
+msgstr ""
+
+#: inc/admin.php:109
+msgid ""
+"Your installation is currently blocking automatic updates. Check %s for "
+"more details."
+msgstr ""
+
+#: inc/admin.php:171
+msgid ""
+"By default the WordPress Administration does not allow you to activate the "
+"automatic updates of its components."
+msgstr ""
+
+#: inc/changelog.php:46
+msgid "Updater Changelog"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Auto Updater"
+msgstr ""
+
+#: inc/changelog.php:49
+msgid "Changelog"
+msgstr ""
+
+#: inc/changelog.php:50
+msgid "Search"
+msgstr ""
+
+#: inc/changelog.php:51
+msgid "No changelog available. Please wait for the first update to complete."
+msgstr ""
+
+#: inc/changelog.php:142
+msgid "Y/m/d"
+msgstr ""
+
+#: inc/changelog.php:154
+msgid "Title"
+msgstr ""
+
+#: inc/changelog.php:155
+msgid "Description"
+msgstr ""
+
+#: inc/changelog.php:156
+msgid "Version"
+msgstr ""
+
+#: inc/changelog.php:157
+msgid "Previous version"
+msgstr ""
+
+#: inc/changelog.php:158
+msgid "Category"
+msgstr ""
+
+#: inc/changelog.php:159
+msgid "Method"
+msgstr ""
+
+#: inc/changelog.php:160
+msgid "Updated on"
+msgstr ""
+
+#: inc/changelog.php:190
+msgid "Invalid post type."
+msgstr ""
+
+#: inc/changelog.php:210
+msgid "Manual update"
+msgstr ""
+
+#: inc/changelog.php:211
+msgid "Automatic update"
+msgstr ""
+
+#: inc/changelog.php:212
+msgid "Plugin"
+msgstr ""
+
+#: inc/changelog.php:213
+msgid "Theme"
+msgstr ""
+
+#: inc/changelog.php:234
+msgid "Show all categories"
+msgstr ""
+
+#: templates/settings.php:4
+msgid "Manage your update preferences"
+msgstr ""
+
+#: templates/settings.php:26
+msgid "Save Changes"
+msgstr ""
+
+#: templates/settings.php:27
+msgid "Use Default Settings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/1and1/wp-site-manager"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Manage and track automatic updates for your WordPress installation."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "1&1"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.1and1.com"
+msgstr ""

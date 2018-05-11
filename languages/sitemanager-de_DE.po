@@ -1,0 +1,139 @@
+# Translation of Auto Updater in German
+# This file is distributed under the same license as the Auto Updater package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-03-20 10:33:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Auto Updater\n"
+
+#: inc/changelog.php:209
+msgid "Theme"
+msgstr "Theme"
+
+#: inc/changelog.php:206
+msgid "Manual update"
+msgstr ""
+
+#: inc/changelog.php:207
+msgid "Automatic update"
+msgstr ""
+
+#: inc/changelog.php:208
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Auto Updater"
+msgstr "Auto Updater"
+
+#: inc/changelog.php:42
+msgid "No changelog available. Please wait for the first update to complete."
+msgstr "Kein Changelog verfügbar. Es wurden bisher keine Updates durchgeführt."
+
+#: inc/changelog.php:149
+msgid "Description"
+msgstr "Beschreibung"
+
+#: inc/changelog.php:152
+msgid "Category"
+msgstr "Kategorie"
+
+#: inc/changelog.php:154
+msgid "Updated on"
+msgstr "Aktualisiert am"
+
+msgid "Manage and track automatic updates for your WordPress installation."
+msgstr "Übersicht der automatischen WordPress-Aktualisierungen."
+
+#: inc/admin.php:49
+msgid "Note: automatic theme updates will <strong>overwrite the theme customizations</strong> you did outside of the WordPress Administration."
+msgstr "Ihre benutzerdefinierten Änderungen an Themes werden bei einer Aktualisierung <strong>überschrieben</strong>."
+
+#: inc/admin.php:90
+msgid "Your installation appears to be under version control (%s). This prevents the plugin from managing your updates."
+msgstr "Updates sind im Moment nicht möglich. Der Ordner %s steht unter Versionskontrolle (%s)."
+
+#: inc/admin.php:99
+msgid "Your installation is currently blocking automatic updates. Install %s to find the cause."
+msgstr "Ihre Installation blockiert momentan automatische Updates. Installieren Sie %s und prüfen Sie, warum Sie automatische Updates nicht aktivieren können."
+
+#: inc/admin.php:107
+msgid "Your installation is currently blocking automatic updates. Activate %s and go to 'Update Tester' under 'Dashboard' to find the cause."
+msgstr "Ihre Installation blockiert momentan automatische Updates. Aktivieren Sie %s und wählen Sie im Menü Dashboard -> Update-Test."
+
+#: inc/admin.php:113
+msgid "Your installation is currently blocking automatic updates. Check %s for more details."
+msgstr "Ihre Installation blockiert momentan automatische Updates.  Prüfen Sie %s für weitere Informationen."
+
+#: inc/admin.php:125
+msgid "Use Default Settings"
+msgstr "Standardeinstellungen verwenden"
+
+#: inc/admin.php:159
+msgid "Manage your update preferences"
+msgstr "Update-Einstellungen verwalten"
+
+#: inc/admin.php:159
+msgid "By default the WordPress Administration does not allow you to activate the automatic updates of its components."
+msgstr "In der WordPress-Administration können Sie die automatischen Updates seiner Komponenten standardmäßig nicht aktivieren."
+
+#: inc/admin.php:159
+msgid "Because it's crucial to keep your WordPress core, translations, plugins and themes up-to-date to prevent security and performance lacks, this tool is here to help you configure these updates."
+msgstr "Da es wichtig ist, dass Ihre WordPress-Anwendung, Übersetzungen, Plugins und Themes auf der neuesten Version sind, um Sicherheits- und Leistungsmängeln vorzubeugen, hilft Ihnen dieses Tool bei der Konfiguration dieser Updates."
+
+#: inc/changelog.php:41
+msgid "Search"
+msgstr "Suche"
+
+#: inc/changelog.php:37 inc/changelog.php:40
+msgid "Changelog"
+msgstr "Changelog"
+
+#: inc/changelog.php:37 inc/changelog.php:40
+msgid "Updater Changelog"
+msgstr "Updater Changelog"
+
+#: inc/changelog.php:150
+msgid "Version"
+msgstr "Version"
+
+#: inc/changelog.php:151
+msgid "Previous version"
+msgstr "Vorherige Version"
+
+#: inc/changelog.php:153
+msgid "Method"
+msgstr "Update-Methode"
+
+msgid "http://www.1and1.com"
+msgstr "http://www.1und1.de"
+
+msgid "1&1"
+msgstr "1&amp;1"
+
+#: inc/admin.php:18 inc/admin.php:19
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/admin.php:45
+msgid "Run WordPress updates"
+msgstr "WordPress aktualisieren"
+
+#: inc/admin.php:45
+msgid "Run translation updates"
+msgstr "Übersetzungen aktualisieren"
+
+#: inc/admin.php:49
+msgid "Run theme updates"
+msgstr "Themes aktualisieren"
+
+#: inc/admin.php:53
+msgid "Run plugin updates"
+msgstr "Plugins aktualisieren"
+
+#: inc/admin.php:123
+msgid "Save Changes"
+msgstr "Änderungen speichern"

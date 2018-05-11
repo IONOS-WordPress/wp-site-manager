@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress">
+	<description>WordPress Coding Standard.</description>
+
+	<file>./sitemanager.php</file>
+	<file>./inc/</file>
+	<exclude-pattern>*/includes/*\.(inc|css|js|svg)</exclude-pattern>
+
+	<rule ref="WordPress-Core"/>
+</ruleset>

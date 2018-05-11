@@ -1,0 +1,21 @@
+{
+    "name": "1and1/site-manager",
+    "description": "Manage and track automatic updates for your WordPress installation.",
+    "type": "wordpress-plugin",
+    "require-dev": {
+        "phpunit/phpunit": "^5.5.0"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": [
+            "composer install",
+            "bin/install-wp-tests.sh wordpress wordpress wordpress",
+            "vendor/bin/phpunit"
+        ],
+        "test-docker": [
+            "composer install",
+            "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+            "vendor/bin/phpunit"
+        ]
+    }
+}

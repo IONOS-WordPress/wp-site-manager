@@ -1,0 +1,17 @@
+version: '2'
+services:
+  db_tests:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: wordpress_tests
+      MYSQL_DATABASE: wordpress_tests
+      MYSQL_USER: wordpress_tests
+      MYSQL_PASSWORD: wordpress_tests
+
+  composer:
+    image: diy-docker-reg01.schlund.de/infrastructure/mysql-composer
+    links:
+      - db_tests
+    volumes:
+      - .:/app
+    command: test-docker
