@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 class Site_Manager {
-	public static $version = '1.1.1';
+	public static $version = '1.1.2';
 
 	private $objects = array();
 
