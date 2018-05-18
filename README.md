@@ -41,8 +41,12 @@ When your installation doesn’t allow major updates the settings will not be vi
 
 ## Screenshots ##
 
-1. Updater Settings
-2. Updater Changelog
+### 1. Updater Settings ###
+![Updater Settings](https://ps.w.org/site-manager/assets/screenshot-1.png)
+
+### 2. Updater Changelog ###
+![Updater Changelog](https://ps.w.org/site-manager/assets/screenshot-2.png)
+
 
 ## Changelog ##
 

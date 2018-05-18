@@ -42,6 +42,9 @@ module.exports = function(grunt) {
           'README.md': 'readme.txt'
         },
       },
+      options: {
+        screenshot_url: 'https://ps.w.org/site-manager/assets/{screenshot}.png'
+      },
     },
     makepot: {
       target: {
