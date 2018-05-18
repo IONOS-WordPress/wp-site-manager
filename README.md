@@ -1,4 +1,4 @@
-# Site Manager #
+# Auto Updater #
 **Contributors:** [1and1](https://profiles.wordpress.org/1and1), [markoheijnen](https://profiles.wordpress.org/markoheijnen), [pfefferle](https://profiles.wordpress.org/pfefferle), [gdespoulain](https://profiles.wordpress.org/gdespoulain)  
 **Tags:** autoupdate, changelog, admin, upgrade, install, automatic  
 **Requires at least:** 3.8  

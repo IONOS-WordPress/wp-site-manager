@@ -1,4 +1,4 @@
-=== Site Manager ===
+=== Auto Updater ===
 Contributors: 1and1, markoheijnen, pfefferle, gdespoulain
 Tags: autoupdate, changelog, admin, upgrade, install, automatic
 Requires at least: 3.8
