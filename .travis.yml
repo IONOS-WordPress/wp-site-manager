@@ -9,17 +9,22 @@ cache:
   directories:
     - vendor
     - $HOME/.composer/cache
+after_success: curl -L https://raw.githubusercontent.com/miya0001/travis2wpplugin/master/deploy.sh | bash
 env:
   matrix:
   - WP_VERSION=latest WP_MULTISITE=0
   global:
   - WP_TRAVISCI=travis:phpunit
+  - SVN_REPO: https://plugins.svn.wordpress.org/site-manager/
+  - GH_REF: https://github.com/1and1/wp-site-manager.git
+  - secure: "X+VQLJ7pooNzWN1OFLazBFbN5rNIdWjcmJWO+BJ9Z/Wo9DeQLmRX+sbPCK6iiIi9wYEtbgZKKl6xmMhON1t5a9i3wB/tM45tLmyUXVFg8GA1sxswVZ/6Vk7dbKZHf3N7BEs2OlFj7TIHYH84bf2WGiSNnor2PVYzMlf7ZWpQsfhhAZrOAdc49ZKIrAuX42N1NQ/x+8e+sPAKmT8KMxus7tQUNq7ohhl5F4n4NM0cUDvMbmzRmMncqYSRYgYp5cLRVCgj+ZJOPM6xpsy6+QVqnqg/vNR0vB536AqCtNU53PocWv3O9uurC6H7XKyQ7V/PG0KpbIud8VrtpLsPIYeo0k+JnH+BLN3SpLNgb9DAz+6LKVe40pevC2I2n9QHnwZJZ0A0l13Vbj+rw70p9DBQlG3AV0znTBWgWjNbUvNCN9YsvarRVxRe3ZseCDjPZhLwSBmemU7VNE0Ztg+ZWpbmN73Cgtfm8E6S3nGccKLTT598sDjABorvto+zQroVseqm4+hZRnJ1t7A7+290RwhnSTslk92UrpCxG/hJh8yIdKefMtv3MzNWv8B8W/txwq/KsMQUMZEtRAu1uATuR8Bk2oya1liKW138Zh9M2Vgs7t5/v5ykTh6L+vwIJnUzLiK7oniLevi5RQlgzaYnKQ6MOvZARQ5rKIxQIbO6+ypwNvU="
 matrix:
   include:
   - php: 7.2
   - php: 7.1
   - php: 7.0
   - php: 5.6
+    env: WP_PULUGIN_DEPLOY=1
   - php: 5.5
   - php: 5.4
   - php: 5.3
