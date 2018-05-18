@@ -3,7 +3,7 @@
  * Plugin Name:  Auto Updater
  * Plugin URI:   https://github.com/1and1/wp-site-manager
  * Description:  Manage and track automatic updates for your WordPress installation.
- * Version:      1.1.0
+ * Version:      1.1.1
  * License:      GPLv2 or later
  * Author:       1&1
  * Author URI:   http://www.1and1.com
@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 class Site_Manager {
-	public static $version = '1.1.0';
+	public static $version = '1.1.1';
 
 	private $objects = array();
 

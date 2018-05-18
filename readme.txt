@@ -2,8 +2,8 @@
 Contributors: 1and1, markoheijnen, pfefferle, gdespoulain
 Tags: autoupdate, changelog, admin, upgrade, install, automatic
 Requires at least: 3.8
-Tested up to: 4.9.5
-Stable tag: 1.1.0
+Tested up to: 4.9.6
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,9 @@ When your installation doesn’t allow major updates the settings will not be vi
 == Changelog ==
 
 Project and support maintained on github at [1and1/wp-site-manager](https://github.com/1and1/wp-site-manager).
+
+= 1.1.1 =
+* Updated "Tested up to" version
 
 = 1.1.0 =
 * Fixed "logging installations" of plugins and themes.
