@@ -11,10 +11,7 @@ Update WordPress, themes and plugins to improve stability and security.
 
 ## Description ##
 
-The Site Update Manager keeps your WordPress and all its themes and plugins up to date.
-It all works automatically and in the background.
-You can customize the update settings, if you prefer.
-The changelog provides an overview and details on all installed updates.
+The Site Update Manager keeps your WordPress and all its themes and plugins up to date. It all works automatically and in the background. You can customize the update settings, if you prefer. The changelog provides an overview and details on all installed updates.
 
 ## Installation ##
 
@@ -32,8 +29,7 @@ Auto Updater checks for updates **every 12 hours**. Updates are then installed a
 
 ### Why do major updates (WordPress core) take more time in some cases? ###
 
-Major updates are delivered by the WordPress core team and might take more than 12-24 hours to appear.
-You can perform major updates manually if needed.
+Major updates are delivered by the WordPress core team and might take more than 12-24 hours to appear. You can perform major updates manually if needed.
 
 ### Why are some settings not available for my installation? ###
 
