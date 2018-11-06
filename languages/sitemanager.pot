@@ -1,4 +1,4 @@
-# Copyright (C) 2018 1&1
+# Copyright (C) 2018 1&1 IONOS SE
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
@@ -166,7 +166,7 @@ msgid "Manage and track automatic updates for your WordPress installation."
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "1&1"
+msgid "1&1 IONOS"
 msgstr ""
 
 #. Author URI of the plugin/theme
