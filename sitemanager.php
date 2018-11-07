@@ -6,7 +6,7 @@
  * Version:      1.1.2
  * License:      GPLv2 or later
  * Author:       1&1 IONOS
- * Author URI:   http://www.ionos.com
+ * Author URI:   https://www.ionos.com
  * Text Domain:  sitemanager
  * Domain Path:  /languages
  */
