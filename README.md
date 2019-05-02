@@ -50,7 +50,8 @@ When your installation doesn’t allow major updates the settings will not be vi
 Project and support maintained on github at [1and1/wp-site-manager](https://github.com/1and1/wp-site-manager).
 
 ### 1.1.3 ###
-* version bump
+* updated versions and requirements
+* added 1&1 IONOS as contributor
 
 ### 1.1.2 ###
 * Fixed autodeployment
