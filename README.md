@@ -1,9 +1,10 @@
 # Auto Updater #
-**Contributors:** [1and1](https://profiles.wordpress.org/1and1), [markoheijnen](https://profiles.wordpress.org/markoheijnen), [pfefferle](https://profiles.wordpress.org/pfefferle), [gdespoulain](https://profiles.wordpress.org/gdespoulain)  
+**Contributors:** [1and1](https://profiles.wordpress.org/1and1), [ionos](https://profiles.wordpress.org/ionos), [markoheijnen](https://profiles.wordpress.org/markoheijnen), [pfefferle](https://profiles.wordpress.org/pfefferle), [gdespoulain](https://profiles.wordpress.org/gdespoulain)  
 **Tags:** autoupdate, changelog, admin, upgrade, install, automatic  
 **Requires at least:** 3.8  
-**Tested up to:** 4.9.6  
-**Stable tag:** 1.1.2  
+**Tested up to:** 5.2  
+**Stable tag:** 1.1.3  
+**Requires PHP:** 5.2  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -47,6 +48,10 @@ When your installation doesn’t allow major updates the settings will not be vi
 ## Changelog ##
 
 Project and support maintained on github at [1and1/wp-site-manager](https://github.com/1and1/wp-site-manager).
+
+### 1.1.3 ###
+* updated versions and requirements
+* added 1&1 IONOS as contributor
 
 ### 1.1.2 ###
 * Fixed autodeployment
