@@ -52,6 +52,7 @@ Project and support maintained on github at [1and1/wp-site-manager](https://gith
 ### 1.1.4 ###
 * Update versions and requirements
 * Fix PHP warning on settings page
+* Add missing text-domains
 
 ### 1.1.3 ###
 * Update versions and requirements
