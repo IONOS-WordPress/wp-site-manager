@@ -139,7 +139,7 @@ class Site_Manager_Changelog {
 				echo $this->list_terms( $post_id, 'update_log_method' );
 				break;
 			case 'update_log_date':
-				echo get_the_time( __( 'Y/m/d' ), $post_id);
+				echo get_the_time( __( 'Y/m/d', 'sitemanager' ), $post_id);
 				break;
 		}
 	}
@@ -187,7 +187,7 @@ class Site_Manager_Changelog {
 		$screen = get_current_screen();
 
 		if ( self::post_type == $screen->id && ( $screen->action == 'add' || $_GET['action'] == 'edit' ) ) {
-			wp_die( __( 'Invalid post type.' ) );
+			wp_die( __( 'Invalid post type.', 'sitemanager' ) );
 		}
 
 		if ( self::post_type != $screen->post_type ) {
