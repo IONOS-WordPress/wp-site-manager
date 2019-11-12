@@ -19,8 +19,7 @@ class Site_Manager_Admin {
 			__( 'Settings', 'sitemanager' ),
 			'manage_options',
 			'site-manager',
-			array( $this, 'settings_page' ),
-			'dashicons-update'
+			array( $this, 'settings_page' )
 		);
 	}
 

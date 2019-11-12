@@ -3,9 +3,9 @@
  * Plugin Name:  Auto Updater
  * Plugin URI:   https://github.com/1and1/wp-site-manager
  * Description:  Manage and track automatic updates for your WordPress installation.
- * Version:      1.1.3
+ * Version:      1.1.4
  * License:      GPLv2 or later
- * Author:       1&1 IONOS
+ * Author:       IONOS
  * Author URI:   https://www.ionos.com
  * Text Domain:  sitemanager
  * Domain Path:  /languages
