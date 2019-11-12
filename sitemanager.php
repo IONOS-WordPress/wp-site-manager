@@ -5,7 +5,7 @@
  * Description:  Manage and track automatic updates for your WordPress installation.
  * Version:      1.1.4
  * License:      GPLv2 or later
- * Author:       1&1 IONOS
+ * Author:       IONOS by 1&1
  * Author URI:   https://www.ionos.com
  * Text Domain:  sitemanager
  * Domain Path:  /languages
