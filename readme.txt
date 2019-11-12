@@ -2,9 +2,9 @@
 Contributors: 1and1, ionos, markoheijnen, pfefferle, gdespoulain
 Tags: autoupdate, changelog, admin, upgrade, install, automatic
 Requires at least: 3.8
-Tested up to: 5.2
+Tested up to: 5.3
 Stable tag: 1.1.4
-Requires PHP: 5.3
+Requires PHP: 5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
