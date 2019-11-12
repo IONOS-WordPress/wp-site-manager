@@ -3,8 +3,8 @@
 **Tags:** autoupdate, changelog, admin, upgrade, install, automatic  
 **Requires at least:** 3.8  
 **Tested up to:** 5.2  
-**Stable tag:** 1.1.3  
-**Requires PHP:** 5.2  
+**Stable tag:** 1.1.4  
+**Requires PHP:** 5.3  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -49,18 +49,22 @@ When your installation doesn’t allow major updates the settings will not be vi
 
 Project and support maintained on github at [1and1/wp-site-manager](https://github.com/1and1/wp-site-manager).
 
+### 1.1.4 ###
+* Update versions and requirements
+* Fix PHP warning on settings page
+
 ### 1.1.3 ###
-* updated versions and requirements
-* added 1&1 IONOS as contributor
+* Update versions and requirements
+* Add 1&1 IONOS as contributor
 
 ### 1.1.2 ###
-* Fixed autodeployment
+* Fix autodeployment
 
 ### 1.1.1 ###
-* Updated "Tested up to" version
+* Update "Tested up to" version
 
 ### 1.1.0 ###
-* Fixed "logging installations" of plugins and themes.
+* Fix "logging installations" of plugins and themes.
 * UI improvements
 
 ### 1.0.2 ###
